@@ -53,7 +53,7 @@ else{
 */
 
 // Palindroma
-let wordSelected = prompt("inserisci una parola");
+/*let wordSelected = prompt("inserisci una parola");
 wordSelected = wordSelected.toLowerCase()
 
 
@@ -78,5 +78,24 @@ function checkPalindrome(string) {
     return "questa parola è palindroma"
 
 }
+*/
+
+
+//snack 12
+let numbersarray= [20,45,60,31,49,33,97,64,27,76];
+let sommaarray= 0;
+
+sommaNumeri(numbersarray);
+//funzione che somma i numeri all'interno di un array
+function sommaNumeri(){
+    for(let i= 0; i< numbersarray.length; i++){
+        sommaarray += numbersarray[i];
+    }
+    console.log(sommaarray);
+};
+
+
+
+
 
 
