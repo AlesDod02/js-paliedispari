@@ -94,7 +94,7 @@ function sommaNumeri(){
         sommaarray += numbersArray[i];
     }
     let media = sommaarray / 10
-    console.log(media);
+    console.log("la media è "+ media);
 };
 
 
