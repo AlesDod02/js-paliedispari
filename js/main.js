@@ -79,4 +79,4 @@ function checkPalindrome(string) {
     
 }
 
-// take input
+
