@@ -66,7 +66,7 @@ function checkPalindrome(string) {
     let lenght = string.length;
 
     
-    for (let i = 0; i <= lenght  / 2; i++) {
+    for (let i = 0; i < lenght  / 2; i++) {
 
        
         if (string[i] == string[ lenght -i - 1 ] ) {
