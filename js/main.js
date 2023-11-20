@@ -82,17 +82,28 @@ function checkPalindrome(string) {
 
 
 //snack 12
-let numbersarray= [20,45,60,31,49,33,97,64,27,76];
-let sommaarray= 0;
-
-sommaNumeri(numbersarray);
+let numbersArray= [];
+for(let i = 0; i < 10; i++){
+    let numeriInseriti = parseInt(prompt("inserisci un numero"))
+    numbersArray.push(numeriInseriti);}
+    let sommaarray= 0;
+    sommaNumeri(numbersArray);
 //funzione che somma i numeri all'interno di un array
 function sommaNumeri(){
-    for(let i= 0; i< numbersarray.length; i++){
-        sommaarray += numbersarray[i];
+    for(let i= 0; i< numbersArray.length; i++){
+        sommaarray += numbersArray[i];
     }
-    console.log(sommaarray);
+    let media = sommaarray / 10
+    console.log(media);
 };
+
+
+
+
+
+
+
+
 
 
 
