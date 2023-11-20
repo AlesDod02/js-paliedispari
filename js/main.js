@@ -6,7 +6,7 @@ let evenOrOdd = prompt("Scegli pari o dispari?")
 //console.log(evenOrOdd)
 let number1 = parseInt(prompt("Scegli un numero da 1 a 5"))
 //console.log(number1)
-let number2 = generateRandomNumberZeroToMaxnumber(10)
+let number2 = generateRandomNumberZeroToMaxnumber(5)
 let somma = number1 + number2
 //console.log(generateRandomNumberZeroToTen)
 console.log (somma)
@@ -51,3 +51,32 @@ else{
 }    
 } 
 */
+
+// Palindroma
+let wordSelected = prompt("inserisci una parola");
+wordSelected = wordSelected.toLowerCase()
+
+
+let palindromeCheck = checkPalindrome(wordSelected);
+
+console.log(palindromeCheck);
+
+function checkPalindrome(string) {
+
+    let lenght = string.length;
+
+    
+    for (let i = 0; i < lenght  / 2; i++) {
+
+       
+        if (string[i] == string[ lenght -i - 1 ] ) {
+            return "questa parola è palindroma";
+        }
+        else{
+            return "questa parola non è palindroma"
+        }
+    }
+    
+}
+
+// take input
